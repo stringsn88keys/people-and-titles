@@ -9,4 +9,7 @@ Gem::Specification.new do |s|
   s.files       = ["lib/people-and-titles.rb"]
   s.homepage    = "https://github.com/stringsn88keys/people-and-titles"
   s.license     = 'MIT'
+
+  s.add_development_dependency("cucumber")
+  s.add_development_dependency("rake")
 end
