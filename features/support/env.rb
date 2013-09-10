@@ -9,5 +9,7 @@ end
 
 $LOAD_PATH.unshift(File.dirname(__FILE__) + '/../../lib')
 require 'people-and-titles'
+require 'people-and-titles/parser'
+require 'people-and-titles/parser/result'
 
 require 'rspec/expectations'

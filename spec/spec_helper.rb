@@ -1,12 +1,16 @@
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'rspec'
+
+# TODO should spec_helper be explicit for library files or glob require?
 require 'people-and-titles'
+require 'people-and-titles/parser'
+require 'people-and-titles/parser/result'
 
 # Requires supporting files with custom matchers and macros, etc,
 # in ./support/ and its subdirectories.
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
 
 RSpec.configure do |config|
-  
+  config.color_enabled = true
 end
