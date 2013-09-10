@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'people-and-titles'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.date        = '2013-09-06'
   s.summary     = 'Name parser gem'
   s.description = 'Name parser gem that can be configured with titles and license suffixes'
