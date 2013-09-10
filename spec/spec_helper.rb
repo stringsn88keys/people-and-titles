@@ -4,8 +4,6 @@ require 'rspec'
 
 # TODO should spec_helper be explicit for library files or glob require?
 require 'people-and-titles'
-require 'people-and-titles/parser'
-require 'people-and-titles/parser/result'
 
 # Requires supporting files with custom matchers and macros, etc,
 # in ./support/ and its subdirectories.
